@@ -1,0 +1,564 @@
+a:hover{color:#e3ae24}
+a:not([href]):not([tabindex]){color:#fff2f2}
+h3{text-align:left}
+input[type=text],input[type=password],input[type=email]{outline:none}
+select{outline:none}
+
+/*-----------------------------------------------------------*/
+#ReloadCaptcha,#ReloadCaptchaLogin,#ReloadCaptchaRegister{cursor:pointer}
+#iconCheck, #ReloadCaptcha, #ReloadCaptchaLogin, #ReloadCaptchaRegister {
+	line-height: 32px;
+	margin-left: 10px;
+	font-size: 16px;
+}
+.form-group.validation-error{color:#D32F2F}
+.form-group.validation-pass i{color:#388E3C;opacity:1}
+.top-nav{background:none;color:#fff}
+/* .index-body{background-color:#000} */
+.index-body{background:url(https://agenduit168.github.io/emas168/background.jpg) no-repeat fixed;background-size:100% 100%}
+
+/*-------------------------                    end of topnav                   ----------------------------------*/
+/*-------------------------                       header                   ----------------------------------*/
+.header{background:url(../images/header.jpg) repeat-x;background-size:auto 100%}
+/* .header{background:linear-gradient(#6d0202, 70%,#480001)} */
+.logo{max-height:90px;margin-top:10px}
+input[type=text].login-form, input[type=password].login-form, input[type=email].login-form {
+	border:1px solid #e3ae24;
+	background-color:#fff;
+	color:#212121;
+}
+.bank{background-color:#000;border:1px solid #e3ae24}
+.user-info>li:last-child>a{padding-right:0}
+.user-info-balance{border:1px solid #65b868;background-color:#000}
+.popover-balance-content{border:1px solid #65b868;background-color:#000}
+/* .bttn-check, .bttn-login, .bttn-banking{color:#000} */
+.bttn-banking{background-color:#65b868;color:#000}
+#calibrate{border-left:1px solid #65b868}
+.pop-wallet>tfoot{border-top:1px solid #65b868}
+.pop-wallet>thead{border-bottom:1px solid #65b868}
+
+/*-------------------------                    end of header                   ----------------------------------*/
+/*-------------------------                    navbar                   ----------------------------------*/
+.navbar [class^=icon_] {
+    background: url(../images/icon_nav.png) no-repeat;
+    background-size: 80%;
+}
+.navbar .nav_name{color:#e3ae24}
+.navbar {
+    background: linear-gradient(#3d3c3b 5% 15%, #000);
+    border-bottom: none;
+	border-top: none;
+}
+.navbar ul{margin-top:-2px}
+.navbar a {
+	text-shadow:none; 
+	font-weight:bold; 
+	color: #000000;
+	-webkit-filter: none;
+    filter: none;
+}
+.subnavbar {
+	background: rgb(0, 0, 0, 0.8);
+	border-bottom: 2px groove #efefef;
+}
+.subnavbar .gameNav a {
+	-webkit-filter: drop-shadow(0px 0px 1px #2e2600);
+	filter: drop-shadow(0px 0px 1px #2e2600);
+}
+.subnavbar .gameNav a:hover {
+	text-decoration: none;
+	background-color: inherit;
+	-webkit-filter: none;
+	filter: none;
+}
+.navbar .icon_home{background-position:center 16px}
+.navbar .icon_casino{background-position:center -214px}
+.navbar .icon_slot{background-position:10px -55px}
+.navbar .icon_tembak_ikan{background-position:center -298px}
+.navbar .icon_lottery{background-position:center -384px}
+.navbar .icon_poker{background-position:center -475px}
+.navbar .icon_sports,.navbar .icon_sportsbook{background-position:center -719px}
+.navbar .icon_games{background-position: center -803px}
+.navbar .icon_promo{background-position:center -130px}
+.navbar .icon_referral{background-position:center -562px}
+.navbar .icon_favorite{background-position:center -643px}
+.navbar .icon_cock_fighting{background-position:center -884px}
+/*-------------------------                    end of navbar                   ----------------------------------*/
+
+/*-------------------------                    middle content                   ----------------------------------*/
+.box-middle{padding:0;margin-top:2px;border:2px solid #f4e6c3;border-radius:3px}
+.rules-agreement-logo{background:url(../images/footer.png) no-repeat;background-size:600px 45px}
+.title {
+	padding: 15px 0 0px 0;
+	text-indent: 0px;
+	display: inline-block;
+}
+.liveitem a{color:#000;border-color:#e3ae24 !important;background-color:#e3ae24}
+.info_wrap .btn_close{top:4px}
+.row{margin-right:-14px;margin-left:-14px}
+.col-6{position:relative;width:100%;padding-right:22.5px;padding-left:22.5px;flex:0 0 50%;max-width:50%}
+.promotion-row_table{text-align:center;max-width:400px;margin-left:auto;margin-right:auto;margin-top:20px}
+.promotion-row_table .currency-flag{text-align:left;display:block;width:100px;margin-left:auto;margin-right:auto}
+.promotion-row_table .currency-flag img{padding-left:20px}
+.table-heading{background-color:#545252;font-weight:700}
+.table-heading .col-6{padding:5px 0;color:#fff;font-weight:700}
+.table-row{padding:4px 0;font-size:14px;font-weight:300}
+.table-row img{height:28px;vertical-align:middle}
+.table-row-odd{background-color:#7b767699}
+.table-row-even{background-color:#c5c3c399}
+
+/*-------------------------                    end of middle content                   ----------------------------------*/
+/*-------------------------                    modal                   ----------------------------------*/
+.game-list:not(.maintenance):hover{background-color:rgba(226, 172, 37, 0.4)}
+.modal-header{background:url(../images/menu.jpg)}
+.modal-title{font-weight:bold}
+/* .middle-index{background:url(../images/middle.jpg) no-repeat;background-size:inherit} */
+.wrap-provider-list{margin-bottom:20px;border-bottom:2px solid #e3ae24}
+/*-------------------------                    end of modal                   ----------------------------------*/
+/*-------------------------                    multiuse                   ----------------------------------*/
+#checkAvailability, #iconCheck{display:inline-block}
+.bttn-login,.bttn-logout,.bttn-register{width:75px;border-radius:5px}
+.bttn-login,.bttn-check {background-color:#65b868; color:#000}
+.bttn-logout,.bttn-register{background-color:#f60019;color:#000}
+.bttn-login:active{background-color:#8db38e;color:#fff}
+.game>a, .login-box>a{cursor:pointer}
+#GameCategory a:hover, #GameCategory a.active,
+#PromotionCategory a:hover, #PromotionCategory a.active {
+	background-color:#e3ae24;
+	color:#000;
+}
+.game-list{padding:10px;position:relative}
+.game-list:hover{background-color:#927b03}
+.game-list:hover .btn-game{display:block}
+.game-list-content>button{background-color:#e3ae24}
+
+/*-------------------------                    popup banner                          ----------------------------------*/
+.sub_color{background-color:#15191b}
+.reward_pop{background-color:#f5f5f5}
+/*-------------------------                    end of popup banner                   ----------------------------------*/
+
+/************************* footer *********************************/
+.footer{background:linear-gradient(#3d3c3b, 15%, #000);border-top:1px solid #e3ae24}
+.footer h1,.footer h2,.footer h3{font-weight:bold;color:#fff}
+.footer-copyright{background-color:#000;padding:10px 0;text-align:center;text-transform:uppercase}
+.category{width:100%;border-bottom:1px solid #273642;line-height:.1em;margin:10px 0 20px}
+.category span{background:#010f02;padding:0 10px}
+.form-group [class*=col-]{margin-bottom:0}
+#RegisterForm .form-group input[type="text"], #RegisterForm .form-group input[type="password"],
+	#RegisterForm .form-group input[type="email"] {
+	font-size: 0.775rem;
+	border: 1px solid #757575;
+	background-color: #fff;
+	border-radius: 4px;
+	color: #212121;
+}
+
+/**************           popup top bar                                 ***********/
+.account_hd{background:linear-gradient(#6d0202 30% 45%,#480001);}
+.account_hd .logout,.account_hd .logout:hover{background:linear-gradient(#3d3c3b,30%, #000);;color:#fff !important}
+.account_hd ul{display:block;font-size:.8125rem;float:right;zoom:1;margin:0;padding:0}
+.account_hd a{display:block;color:#fff}
+.account_hd .livehelp,.account_hd .userid{padding-left:26px}
+.account_hd .livehelp{background-position:0 -742px}
+.account_hd .livehelp:hover{background-position:0 -773px;color:#2ccad7;text-decoration:none}
+.popup-header-time{margin-left:15px;font-size:13px}
+/**************           end of popup top bar                                ***********/
+
+/**************           popup menu bar                                 ***********/
+.account_nav{background-color:#000}
+.account_nav ul a:hover, .account_nav ul a.choice{color:#e3ae24;border-bottom-color:#e3ae24}
+/**************           end of popup menu bar                                 ***********/
+
+/**************           popup content bar                                 ***********/
+.con_box:not(.account_list){background-color:#000}
+.con_item h4{padding:15px 0 10px 0;text-indent:0;border-bottom:2px solid #e3ae24}
+.con_item h4:before{border-left:none}
+.con_item .info_type{background-color:#232323;border:1px #4c4c4c solid;color:#888}
+.conlist li:hover,.conlist li.selected{background-color:#e3ae24;color:#000}
+.form-group select{background-color:#fff}
+.popup-body .form-group input[type="text"], .popup-body .form-group input[type="password"] {
+	margin-top: 0;
+	border: 1px solid #757575;
+	background-color: #fff;
+	color: #212121;
+}
+.btn_type input[type=submit], .btn_type input[type=button], .btn_type input[type=reset] {
+	background-color:#e3ae24;
+	color: #000;
+}
+.btn_type .btn_default:hover{background-color:#e3ae24}
+.account_list{min-width:930px;padding:20px;box-shadow:0 -1px 1px rgba(0,0,0,.3);color:#fff}
+.account_list.embed_account_list{background-color:unset}
+.account_list h4:before{border-left-color:#e3ae24}
+.account_list .account_info{border-bottom:unset}
+.account_list .account_info thead{background:linear-gradient(#6d0202 30% 45%,#480001);}
+.account_list .account_info th{border-right:1px solid #0b1e10}
+.date_list input[type="text"], .date_list input[type="password"]{border-color:#757575;color:#000}
+.date_list button {
+	width: 136px;
+	height: 32px;
+	line-height: 32px;
+	background-color:#e3ae24;
+	color: #000;
+	outline: none;
+}
+.date_list li:first-child{color:#fff}
+.datepicker table tr td.active.active, 
+.datepicker table tr td.active:active,
+.datepicker table tr td.active:hover,
+.datepicker table tr td.active:hover.active, 
+.datepicker table tr td.active:hover:active,
+.datepicker table tr td.active:hover:hover{
+	background:#e3ae24;
+	color:#212529;
+}
+.form-group .transcash .cash{border:1px solid #757575;background-color:#fff;color:#000}
+.wallet{margin:1% 0% 0 2%;border:1px solid #848484;background-color:#ececec;float:right;padding:0}
+.wallet .total, .wallet .primary{color:#e3ae24}
+.wallet .total .btn_total,.wallet .primary .btn_total{background:linear-gradient(180deg, #e3ae24 0%, #e3ae24 50%, #e3ae24 100%);color:#2d2c2c}
+.wallet .content-inner .icon_dropdown {
+	position: relative;
+	margin: 3px 6px 0 0;
+	width: 18px;
+	height: 18px;
+	display: block;
+	background-color: #757575;
+	padding-left: 3px;
+	padding-top: 2px;
+	-webkit-border-radius: 50%;
+	-mos-border-radius: 50%;
+	border-radius: 50%;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	float: left;
+	padding: 2px;
+}
+.conlist{border:1px solid #459e00}
+.conlist h5 {
+	padding: 0 8px;
+	text-transform: uppercase;
+	color: #383838;
+	font-weight: 700;
+	line-height: 30px;
+	font-size: 0.8125rem;
+}
+.validation-error .input-field{border-color:#D32F2F}
+.validation-error i{overflow:visible;opacity:1}
+.validation-close i{color:#424242;overflow:visible;opacity:1}
+
+/*Bonus Module 9 September 2020*/
+.bonus-wrapper .nav-tabs .nav-link.active{border-bottom:5px solid #e3ae24;color:#463300}
+.bonus-wrapper .nav-tabs{border-bottom:1px solid #e3ae24}
+.bonus-wrapper .nav-tabs .nav-link:hover{color:#e3ae24}
+.bonus-provider-list li:hover{background-color:#e3ae24!important}
+.bonus-provider-list li.active a{border-bottom:4px solid #f90400;font-weight:700;background-color:#e3ae24}
+.mainPvLs{background-color:rgba(240, 200, 79, 0.5)}
+.bonus-item{border-color:#e3ae24;background-color:rgb(70,51,0);outline:none;color:#fff}
+.isNewPlayer{background:#9e8900;color:#fff}
+.bonus-button.active{background-color:#e3ae24;color:#38260a;border-color:rgb(242,230,153)}
+.bonus-button.active:hover{background-color:#463300;cursor:pointer;color:#fff}
+.bonus-name{color:#e9ad17}
+.bonus-button.btn-await-approval{background-color:#463300;color:#e3ae24}
+.progress-value{background:linear-gradient(180deg, rgba(226, 172, 37, .4) 0%, rgb(226, 172, 37) 100%)}
+
+/*MENUBAR TEMPLATE 1*/
+.futuristic .gameNav a>span {
+	padding: 3px 6px;
+	line-height: 30px;
+	height: 30px;
+	border: 1px solid #fff !important;
+	border-radius: 10px;
+	color: #ffffff !important;
+	font-weight: normal !important;
+	font-size: 0.675rem;
+}
+.futuristic .gameNav>li:hover span:not(.icon-new){background-color:#F00 !important}
+.futuristic .icon-menu-wrapper {
+	border-color:#fff !important;
+	background:linear-gradient(90deg, #e3ae24 0%, rgba(240,200, 79, 0.6) 50%, rgba(0, 0, 0, 0.48) 100%) !important;
+	height:95px;
+}
+
+/************ Progressive Jackpot ***********/
+.progressive-jackpot{filter:unset;}
+.jackpot-wrapper{filter:contrast(100%) hue-rotate(308deg) saturate(10)}
+.progressive-jackpot img{
+	filter:contrast(100%) hue-rotate(168deg) saturate(14);
+	width:100%;
+	background-size:100% 100%;
+}
+.progressive-jackpot h2 {
+	position: absolute;
+	top: 0;
+    left: 0;
+    right: 0;
+    display: inline-block;
+    outline: none;
+    box-sizing: border-box;
+    border-radius: .3em;
+    text-transform: uppercase;
+    box-shadow: 0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(110,80,20,.4), inset 0 -2px 5px 1px rgba(139,66,8,1), inset 0 -1px 1px 3px rgba(250,227,133,1);
+    background-image: linear-gradient(160deg, #a54e07, #b47e11, #fef1a2, #bc881b, #a54e07);
+    border: 1px solid #a55d07;
+    color: #281b01;
+    font-weight: bold;
+    text-shadow: 0 2px 2px rgba(250, 227, 133, 1);
+    transition: all .2s ease-in-out;
+    background-size: 100% 100%;
+    background-position: center;
+    font-size: 16px !important;
+    max-width: 290px !important;
+    margin: 0 auto;
+	z-index: 5 !important;
+	padding:2px;
+}
+
+/********* Provider List near footer *********/
+#ProviderList .pgr{background-position:right -89px}
+#ProviderList .hb{background-position:right -171px}
+#ProviderList .gpi{background-position:right -254px}
+#ProviderList .wm{background-position:right -585px}
+#ProviderList .isin4d{background-position:right -668px}
+#ProviderList .spd{background-position:right -752px}
+#ProviderList .sbo{background-position:right -836px}
+#ProviderList .agl{background-position:right -918px}
+#ProviderList .joker{background-position:right -1001px}
+#ProviderList .cmd{background-position:right -1084px}
+#ProviderList .awc{background-position:right -1168px}
+#ProviderList .idn{background-position:right -1248px}
+#ProviderList .pgs,#ProviderList .pgs:hover{background-position:left -1332px}
+#ProviderList .sbc{background-position:right -1415px}
+#ProviderList .bbn{background-position:right -1498px}
+#ProviderList .ori{background-position:right -1580px}
+#ProviderList .bbp{background-position:right -1746px}
+#ProviderList .cqn{background-position:right -1830px}
+#ProviderList .ttg{background-position:right -1912px}
+#ProviderList .pst{background-position:right -1664px}
+
+/* Favorite */
+.filter-tools a:hover, .filter-tools a.selected {
+	background: radial-gradient(circle, transparent 1%, #e3ae24 1%) center center / 15000% #e3ae24;
+    border: 1px solid rgb(88 45 7 / 0.5);
+    color: rgb(88 45 7 / 0.7);
+}
+
+.label-new {
+    position: absolute;
+    margin-top: 2px;
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 16px;
+    padding: 0 6px;
+    border-radius: 4px;
+    min-width: 30px;
+    margin-left: 10px;
+    background-color: #e83e37;
+    color: #fff;
+    z-index: 1;
+    top: 24px;
+}
+
+.middle{
+	text-align: center;
+}
+
+@media(max-width: 500px){
+	.winrate{
+		height: 20px;
+	}
+
+	.winrate p{
+		transform: translateY(10px);
+	}
+}
+
+
+svg {
+    fill: currentColor;
+}
+
+
+
+* {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+.ko{
+    margin-bottom: 10px;
+}
+.ki{
+    height: 30px;
+    background-color: black;
+    margin: auto;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    font-size: 2hw;
+    border: 2px solid white;
+    
+  
+
+}
+.menub{
+    background-color: #fec100;
+}
+
+.wrapper-hat{
+	background: #333;
+    padding: 5px;
+    color: #fff;
+    text-align: center;
+    border-bottom: 5px solid #f9da3c;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.bg-stripes{
+	background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 15%, transparent 25%, transparent 35%, rgba(255, 255, 255, 0.15) 55%, rgba(255, 255, 255, 0.15) 25%, transparent 15%, transparent);
+	transition: width 0.6s ease;
+	-webkit-animation: bg-stripes-move 1s linear infinite;
+	animation: bg-stripes-move 1s linear infinite;
+	background-size: 1rem 1rem;
+	background-position: center;
+}
+
+@-webkit-keyframes bg-stripes-move {
+	from {
+	  background-position: 0 0;
+	}
+  
+	to {
+	  background-position: 0 1rem;
+	}
+  }
+  
+  @keyframes bg-stripes-move {
+	from {
+	  background-position: 0 0;
+	}
+  
+	to {
+	  background-position: 1rem 1rem;
+	}
+  }
+
+.table_group{
+	border: 0.1px solid #000;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.time-content{
+	border-bottom: 0.1px solid #000;
+	padding: 3px;
+}
+
+.pola-content{
+	border-top: 0.1px solid #000;
+	padding: 3px;
+}
+
+#pola-title{
+	margin-bottom: 5px;
+}
+
+.pola-text{
+	font-size: 13px;
+}
+
+.time-content p, .pola-content #pola-title{
+	font-size: 15px;
+}
+
+.time-content p, .pola-content #pola-title, .pola-text{
+	margin: 0;
+	color: rgb(206, 203, 203);
+	font-weight: bold;
+}
+
+.buttons{
+	display: flex;
+	align-items: center;
+	padding: 0 0 0 30px;
+	width: 100%;
+}
+
+.buttons .row{
+	width: 100%;
+}
+
+.buttons .col-sm{
+	padding: 0;
+}
+
+.nav-btn {
+	width: 100%;
+	height: 50px;
+	color: white;
+	font-weight: bold;
+	font-size: 1.7rem;
+}
+
+.btn-login{
+	background: linear-gradient(0deg, #998415 0%, #fca50d 35%, #fffc8d 80% 70%, #ffe553);
+	border-radius: 5px 0 0 50px;
+	border-right: #281b01 2px solid;
+}
+
+.btn-daftar{
+	background: linear-gradient(0deg, #991515 0%, #f00018 35%, #ff0000 70% 80%, #ff3737);
+	border-radius: 0 50px 5px 0;
+	border-left: #281b01 2px solid;
+}
+
+@media (max-width: 768px) {
+    .nav-btn {
+		width: 100%;
+		height: 50px;
+		color: white;
+		font-weight: bold;
+		font-size: 1.7rem;
+	}
+	
+	.btn-login{
+		background: linear-gradient(0deg, #998415 0%, #fca50d 35%, #fffc8d 80% 70%, #ffe553);
+		border-radius: 50px 0 0 5px;
+	}
+	
+	.btn-daftar{
+		background: linear-gradient(0deg, #991515 0%, #f00018 35%, #ff0000 70% 80%, #ff3737);
+	}
+}
+@media (max-width: 576px) {
+	.buttons{
+		padding: 0 10px 0 40px;
+	}
+
+    .nav-btn {
+		width: 100%;
+		height: 50px;
+		color: white;
+		font-weight: bold;
+		font-size: 1.7rem;
+		
+	}
+	
+	.btn-login{
+		background: linear-gradient(0deg, #998415 0%, #fca50d 35%, #fffc8d 80% 70%, #ffe553);
+		border: none;
+		border-bottom: #281b01 2px solid;
+		border-radius: 30px 30px 0 0;
+	}
+	
+	.btn-daftar{
+		background: linear-gradient(0deg, #991515 0%, #f00018 35%, #ff0000 70% 80%, #ff3737);
+		border: none;
+		border-top: #281b01 2px solid;
+		border-radius: 0 0 30px 30px;
+	}
+}
